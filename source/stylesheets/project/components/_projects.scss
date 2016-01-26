@@ -1,0 +1,86 @@
+* { margin:0; padding:0; }
+
+.color1 {
+  background: #182134 url("../img/bg.svg") no-repeat center center fixed;
+  background-size: cover;
+  background-position: center -300px;
+  color: #FFF;
+}
+
+.color2 {
+  background-color: #F0F8A0;
+  color: #182134;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+}
+
+li {
+  position: relative;
+}
+
+.intro {
+  position: absolute;
+  bottom: 3rem;
+  max-width: 35rem;
+}
+
+.block_big {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+}
+
+.block_small {
+
+}
+
+.project {
+  width: 25%;
+  height: 25vw;
+  background-color: #182134;
+  position: relative;
+  display: inline-block;
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: table-cell;
+}
+
+.project a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+.project img {
+  height: 100%;
+  width: auto;
+  position: static;
+  margin: 0 auto;
+}
+
+.name {
+  position: absolute;
+  width: 100%;
+  vertical-align: middle;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  left: 0;
+  background-color: rgba(24, 33, 52, 0.9);
+}
