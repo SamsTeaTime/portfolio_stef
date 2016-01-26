@@ -1,0 +1,17 @@
+ul {
+  display: inline;
+  float: right;
+  list-style-type: none;
+  margin-top: .5em;
+
+  li {
+    float: left;
+    margin-right: 2em;
+
+    a {
+      padding: .5em;
+      text-decoration: none;
+      border: 1px solid #000;
+    }
+  }
+}

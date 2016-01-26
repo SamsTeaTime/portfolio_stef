@@ -37,24 +37,8 @@ p {
   padding: 1em 0;
 }
 
-p, .definition {
-  line-height: 1.5em;
-}
-
-.title {
-  text-align: center;
-  text-decoration: none;
-}
-
-.intro {
-  text-align: center;
-	line-height: 1.8em;
-}
-
-input {
-    font-size: 1.2em;
-    font-family: "Gotham SSm 7r", "Gotham SSm A", "Gotham SSm B", sans-serif;
-    font-weight: 700;
+.logo {
+  display: inline;
 }
 
 // .h1, h1 {@include font-scaling(1.5em, 2em);}

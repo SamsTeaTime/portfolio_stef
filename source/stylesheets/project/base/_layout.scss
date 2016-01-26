@@ -1,37 +1,13 @@
 body {
-  background-color: #036;
 	padding: 0;
-  padding-bottom: 30em;
 	margin: 0;
 }
 
-.leftside {
-  width: 30%;
-  height: 50em;
-  float: left;
-
-  &:hover {
-    ~ #animation {
-      left: -10%;
-    }
-
-    ~ .spooky {
-      left: 32%;
-    }
-  }
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
-.rightside {
-  width: 30%;
-  height: 50em;
-  float: right;
 
-  &:hover {
-    ~ #animation {
-      left: 10%;
-    }
-
-    ~ .spooky {
-      left: 52%;
-    }
-  }
+header {
+  padding-top: 2em;
 }
