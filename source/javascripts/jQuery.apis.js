@@ -95,7 +95,9 @@ $(document).ready(function(){
       image         = projectArray[i][4];
 
       if (projectArray[i][4] !== null) {
-        image         = "<div class='photo'><img src=" + image + " alt='' /></div>";
+        // image         = "<div class='photo'><img src=" + image + " alt='' /></div>";
+        // Not the right way, but it works for now
+        image         = "<div class='photo' style='background-image: url(" + image + ");'></div>";
       } else {
         image = "<div class='photo'></div";
       };
