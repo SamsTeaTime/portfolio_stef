@@ -95,20 +95,19 @@ $(document).ready(function(){
       image         = projectArray[i][4];
 
       if (projectArray[i][4] !== null) {
-        image         = "<img src=" + image + " alt='' />";
+        image         = "<div class='photo'><img src=" + image + " alt='' /></div>";
       } else {
-        image = "";
+        image = "<div class='photo'></div";
       };
       completeProject       = "<a class='url project'  target='_blank' href='" + url + "'>" + name  + image +  "</a>";
       $(".api").append(completeProject);
     }
   };
   function bgColor() {
-  $(".name").each(function() {
+  $(".photo").each(function() {
     var red   = (Math.round(Math.random()* 127) + 127);
     var green   = (Math.round(Math.random()* 127) + 127);
     var blue  = (Math.round(Math.random()* 127) + 127);
-    console.log(red);
     // var color  = '#' + red + green + blue;
     var color   = 'rgba(' + red + ',' + green + ',' + blue + ', 0.9)';
     $(this).css("background-color", color);

@@ -55,4 +55,17 @@ ul {
 	margin: 0;
 }
 
+.name {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: .8em;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.2em;
+  text-align: left;
+  color: #182134;
+}
+
+
 .subheader { font-weight: 400; }
