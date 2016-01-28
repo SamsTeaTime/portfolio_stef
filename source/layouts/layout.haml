@@ -1,7 +1,8 @@
 !!!
 %html
   %head
-    %title Portfolio Stef
+    %title Portfolio Stef Kors
+
     %meta{charset: 'UTF-8'}
 
     = stylesheet_link_tag 'main'
@@ -14,18 +15,19 @@
   %body
     .container
       %header
-        %h1 
-          Stef Kors
+        %h1.logo Stef Kors
+
         %ul
-          %li 
+          %li
             =link_to "Selected"
           %li
             =link_to "All projects"
           %li
             =link_to "Resume"
-      %section
-        %article
-          
+      .projects
+        .api
+
+    / = yield
 
   %script{type:"text/javascript", src:'//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'}
   -#%script{type:"text/javascript"}

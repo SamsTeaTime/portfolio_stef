@@ -1,19 +1,17 @@
-.header {
-  padding-top: 5em;
+ul {
+  display: inline;
+  float: right;
+  list-style-type: none;
+  margin-top: .5em;
 
-  ul {
-    float: right;
-    list-style-type: none;
-    overflow: hidden;
+  li {
+    float: left;
+    margin-right: 2em;
 
-    li {
-      float: left;
-      margin-right: 1em;
-      display: inline;
-
-      a {
-        display: block;
-      }
+    a {
+      padding: .5em;
+      text-decoration: none;
+      border: 1px solid #000;
     }
   }
 }
